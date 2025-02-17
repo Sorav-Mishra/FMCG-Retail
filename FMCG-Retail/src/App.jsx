@@ -14,7 +14,7 @@ import Household from "./pages/Household";
 function App() {
   return (
     <>
-      <Navbar /> {/* Navbar is outside Routes so it appears on all pages */}
+      <Navbar />
       <Routes>
         <Route
           path="/"
